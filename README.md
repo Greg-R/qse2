@@ -142,21 +142,21 @@ The Arduino sketch designed to work with QSEDC is located here:
 
 You will need to modify the file "MyConfigurationFile.h".  The default code looks like this:
 
-// Set multiplication factors for your QSD and QSE boards.
-#define MASTER_CLK_MULT_RX 4
-#define MASTER_CLK_MULT_TX 4
-
-// Uncomment this line for QSE2.
-//#define QSE2
+>// Set multiplication factors for your QSD and QSE boards.
+>#define MASTER_CLK_MULT_RX 4
+>#define MASTER_CLK_MULT_TX 4
+>
+>// Uncomment this line for QSE2.
+>//#define QSE2
 
 Assuming you are using both QSD2 and QSE2DC, you should change the code to this:
 
-// Set multiplication factors for your QSD and QSE boards.
-#define MASTER_CLK_MULT_RX 2
-#define MASTER_CLK_MULT_TX 2
-
-// Uncomment this line for QSE2.
-#define QSE2
+>// Set multiplication factors for your QSD and QSE boards.
+>#define MASTER_CLK_MULT_RX 2
+>#define MASTER_CLK_MULT_TX 2
+>
+>// Uncomment this line for QSE2.
+>#define QSE2
 
 ## A Summary of Methods to Extend the T41 Frequency Range
 
