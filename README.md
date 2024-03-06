@@ -181,18 +181,10 @@ On the other hand, this introduces a low frequency limit and it may not be possi
 
 The QSE2DC exciter module circuitry is almost entirely revised compared to its ancestor the V011 QSE.
 
-### RF Amplifier
-
-
-
 ### Pi RF Attenuator
 
-The problem with many of the integrated RF amplifiers is that they have too much gain!  Too much gain will reduce
-the intermodulation and general strong-signal handling of the receiver.  Too much gain will have negligible impact
-on receiver sensitivity.
-
-A Pi resistive attenuator is added between the output of the RF amplifier and the input of the demodulator.
-Thus the front-end gain can be adjusted to optimize both receiver sensitivity and intermodulation performance.
+A Pi resistive attenuator is added on the output of the QSE.  This can be adjusted depending on the gain
+of the power amplifier.  The nominal design has about 3 dB of attenuation.
 
 ### Output Transformer
 
@@ -205,33 +197,21 @@ Using this ready-made transformer means no toroid winding!  However, it is expen
 Note that other transformers with the same footprint may work in this circuit.  The middle pads
 are open-circuited which means even tapped transformers can be used.
 
-### Balanced Output Summing Capacitors
+### Differential Operational Amplifiers with Low-Pass Filter
 
-The output of the demodulator uses "differential mode" integration capacitors.  The idea here is to balance
-the output circuit to the highest degree possible.  The capacitors should be specified to 1% tolerance.  The typical
-shunt capacitors are also provided.  The capacitor values in this circuit may be further optimized.
+Fully differential operation amplifiers replace the op-amps from the V011 circuit.  This is intended
+to improve the symmetry and balance of the modulator circuit, thus improving performance.
 
-### Differential Operational Amplifiers
+A low-pass filter is implemented using the differential amplifiers.  This is a significant simplification,
+as a separate low-pass filter is not required.
 
-"Instrumentation amplifiers" replace the op-amps from the V010 circuit.  The instrumentation amplifiers are intended
-to improve the symmetry and balance of the demodulator circuit, thus improving performance, and in particular the image rejection.
+A disadvantage of the differential amplifiers is higher cost.  The AD8137 device cost is US$4.12  Quantity 2 are required.
 
-Another benefit of the instrumentation amplifiers is the simplification of the circuit.  A single resistor sets the gain.
-The gain setting resistors should be specified to 1% tolerance.
-
-A disadvantage of the instrumentation amplifiers is higher cost.  The AD8226 device cost is US$3.77.  Quantity 2 are required.
-
-### Power Supply Decoupling
+### Power Supply Decoupling and Regulators
 
 The power supplies routed through the 16 wire ribbon cable are prone to noise, most likely from the Main board.
-Extra decoupling components were added to clean up the power supplies.  This has been noted in a lower noise floor
-of the displayed spectrum.
-
-### Option for 3.3 or 5.0 Volts Biasing
-
-A zero ohm jumper is placed to select either 3.3 or 5.0 volt supply bias to the quadrature and demodulator devices.
-It is also necessary to change the instrumentation amplifier reference regulators depending on the the chosen bias voltage.
-Use 1.8 volt regulators with 3.3 volt bias, or a 2.5 volt regulator with 5.0 volt bias.
+Regulators for the three required voltages include low-esr bypass capacitors.  This will provide clean bias sources
+to the modulator circuit.
 
 ### Connectors
 
@@ -244,7 +224,7 @@ The PCB layout was completed using Kicad version 8.  This is an open-source tool
 to design the V010 and V011 series boards.
 
 The layout in the quadrature generator and modulator areas was very carefully routed for maximum frequency performance.
-The QSE2DC is approximately the same board size as V010, but there is unused area to add additional circuitry if desired.
+The QSE2DC is approximately the same board size as V011, but there is unused area to add additional circuitry if desired.
 
 The prototype PCBs were fabricated by PCBWay at a cost of US$1.00 each.  Shipping was about US$25.00 for quantity 5 boards.
 
@@ -252,81 +232,89 @@ The prototype PCBs were fabricated by PCBWay at a cost of US$1.00 each.  Shippin
 
 A public Digikey BOM is here:
 
-<https://www.digikey.com/en/mylists/list/K5OIGZF85K>
-
-This BOM includes parts to build a board with 5.0 volt biasing.  This is assumed to be the highest performance configuration.
+<https://www.digikey.com/en/mylists/list/0OK3JOSXY7>
 
 Please note that specific parts may or may not be available when attempting to order.  It is the responsibility of the builder
 to find subsitutes as required.
 
 ## Build Tips
 
-In general, QSE2 is easier to build than the original V010/V011 series boards.  There are a few items to be aware of to avoid
+In general, QSE2DC is easier to build than the original V010/V011 series boards.  There are a few items to be aware of to avoid
 build errors.
 
-The most probable error(s) are correct orientation of the flip-flop, multiplexer, transformer, and instrumentation amplifier devices.
-The pin 1 markings on the devices are very difficult to see.  Unfortunately, the pin 1 marks on the V1.0 PCB are missing for U2, the
-multiplexer, and for U5, one of the instrumentation ICs.  The transformer markings are easy to read; this should be clear in the
+The most probable error(s) are incorrect orientation of the flip-flop, multiplexer, transformer, and differential amplifier devices.
+The pin 1 markings on the devices are very difficult to see.  The transformer markings are easy to read; this should be clear in the
 photograph of the finished board.
-
-There are also 3 leaded electrolytic capacitors.  The markings for these parts are clear on the PCB.
 
 Here are details on each part with regards to proper orientation of the board.  The descriptions are viewing the top side of the board,
 with the "T41 EXPERIMENTERS PLATFORM" near the bottom of the board in normal left-to-right reading orientation.
 
-### Transformer TR1
+### Transformer TR2
 
-The transformer TR1 should be placed with the "dot" at the upper right corner.  The textual markings will be upside down.
+The transformer TR2 should be placed with the "dot" at the upper left corner.  If you are using the ADT1-1+, it appears
+to be symmetrical, so the orientation shouldn't matter.  However, other transformers may require a specific orientation.
 
 ### 74AC74 Dual Flip-Flop U4
 
-Pin 1 should be in the lower right corner.  This is marked with a small white dot on the PCB.
+Pin 1 should be in the lower left corner.  This is marked with a small white dot on the PCB.
 
 ### 3253 Multiplexer U3
 
-No marking for Pin 1 is on the board.  Pin 1 is at the upper left.  The part I used has a bar on the Pin 1 end.  So the part is placed
-with the bar up, towards the flip-flop device.
+Pin 1 is at the upper right.  Look for a small white dot next to pin 1.
 
-### Instrumentation Amplifiers AD8226 U5 and U6
+### Differential Amplifiers AD8137 U5 and U9
 
-Only U5 has the Pin 1 indicated with a dot on the PCB.  However, both parts are oriented the same, with Pin 1 towards the upper left.
-There is a dot on the parts to indicated Pin 1, however, it is very hard to see.  The package is beveled on the Pin 1 side; this is easy to see.
+Pin 1 indicated with a dot on the PCB.  Both parts are oriented the same, with Pin 1 towards the upper right.
+There is a dot on the parts to indicate Pin 1, however, it is very hard to see.  The package is beveled on the Pin 1 side; this is easy to see.
 
 ### Non-placed Parts
 
-C20 and C21 are not used.
+Don't place R3.  Placing this jumper implements shutdown of the differential amplifiers during receive.  This feature has not been
+tested.
 
-R29 and R30 are zero-ohm jumpers.  Place R29 for 5.0 volt bias on the quadrature generator.  This is the recommended configuration.
-Don't place R30 which is the 3.3 volt jumper.
+The two-pin header J6 can be optionally placed if it is convenient to route the TXRX signal from the QSEDC board.
 
 ### Bottom Side Parts
 
-There are 3 capacitors and 1 resistor on the bottom side.  These should be soldered last.  I was able to use a hot air gun without
+There are 4 capacitors on the bottom side of the PCB.  These should be soldered last.  I was able to use a hot air gun without
 any problems with the top-side components desoldering.
 
 ### SMA Connectors
 
-Take a good look at the placement of the board in your T41 radio.  You will want the SMA connectors of the QSD2 in the orientation for
+Take a good look at the placement of the board in your T41 radio.  You will want the SMA connectors of the QSE2DC in the orientation for
 easy coaxial cable routing.  I used 90 degree connectors as this was the easiest for extensive testing, but not necessarily the best for
 permanent installation.  Also, you may choose to put the SMAs on one side or the other for optimal cable routing.
 
-Please note that the cable from the Main board to J1, which is the receive local oscillator, should be as short as possible.
+An investigation is underway to integrate an Si5351 local oscillator board with QSD2 and QSE2DC.  This will require a particular
+orientation of the local oscillator SMA connectors.
+
+Please note that the cable from the Main board to J1, which is the transmit local oscillator, should be as short as possible.
+
+### High Resolution Photos of QSEDC
+
+Links to photos of a fully constructed QSE2DC follow.  Please note that this board has some small differences compared to the
+published design files.
+
+<https://drive.google.com/file/d/1Lo7MUv4n7TAvsBvKD-P0JrY5RbWsMqeq/view?usp=sharing>
+
+<https://drive.google.com/file/d/1iPaU0uy0F-LnCR35QzV5CAkI_wy7EVRM/view?usp=sharing>
 
 ## References and Further Reading
 
-The QSD2 is an attempt to integrate the best circuits from several sources into a high-performance HF receiver module.
+The QSE2DC is an attempt to integrate the best circuits from several sources into a high-performance HF exciter module.
 Here is a list of sources which inspired the design of the QSD2:
 
 1.  "Digital Signal Processing and Software Defined Radio, Theory and Construction of the T41-EP Software Defined Transceiver",
 by Albert F. Peter, AC8GY, and Dr. Jack Purdum, W8TEE.  This is the ultimate resource for builders of the T41 Software Defined
 Transceiver:  <https://www.amazon.com/Software-Defined-Radio-Transceiver-Construction/dp/B09WYP1ST8>
 2.  "A Software Defined Radio for the Masses, Part 4" by Gerald Youngblood, AC5OG.  This shows the circuit for the double-balanced
-demodulator circuit and the use of instrumentation amplifiers on the output circuit.
+modulator circuit and the use of instrumentation amplifiers on the output circuit.
 <https://www.arrl.org/files/file/Technology/tis/info/pdf/030304qex020.pdf>
 3.  The Rod Gatehouse 2022 transceiver website:  https://ad5gh.wordpress.com/2022-sdr-transceiver/
 Rod took the original T41 SDT design and evolved it into a high-performance digital mode radio.  Excellent circuit upgrades!
 4.  "The Lentz Receiver: Tayloe Evolved" by H. Scott Lentz, AG7FF.  An interesting discussion of several design features of the
-"Lentz Receiver" which improve the performance of the typical "Tayloe Detector" style HF receiver.
+"Lentz Receiver" which improve the performance of the typical "Tayloe Detector" style HF receiver.  Some of these ideas also
+apply to modulators.
 <https://www.arrl.org/files/file/QEX_Next_Issue/2023/05%20may-jun%202023/05%202023%20TofC.pdf>
 
 
