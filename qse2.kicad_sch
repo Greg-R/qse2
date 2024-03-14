@@ -6897,7 +6897,7 @@
 		)
 		(uuid "c6340f0a-f77b-4568-974f-1896968f8a2c")
 	)
-	(text "QSEDC with Divide-by-Two Quadrature"
+	(text "QSE2DC with Divide-by-Two Quadrature"
 		(exclude_from_sim no)
 		(at 64.262 21.844 0)
 		(effects
@@ -7552,7 +7552,7 @@
 			(uuid "0dc2a164-768f-44e1-9d66-98d291663a4b")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R24")
 					(unit 1)
@@ -7621,7 +7621,7 @@
 			(uuid "d4c9e67e-8ef3-4b79-9d8b-d214906c6675")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C26")
 					(unit 1)
@@ -7697,7 +7697,7 @@
 			(uuid "3f348016-ea79-4ad3-8f29-4ce17e9f111d")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "U1")
 					(unit 1)
@@ -7767,7 +7767,7 @@
 			(uuid "ef588cbb-3711-454d-948b-bc6315218a9f")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C25")
 					(unit 1)
@@ -7836,7 +7836,7 @@
 			(uuid "5adadc79-673d-438e-8fd3-bb471ae17afa")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C29")
 					(unit 1)
@@ -7903,7 +7903,7 @@
 			(uuid "d540c521-ed3b-476e-a6f6-2529aaac2421")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R31")
 					(unit 1)
@@ -7969,7 +7969,7 @@
 			(uuid "fabd108a-eb0f-4504-9785-442d5f3eb4a2")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR036")
 					(unit 1)
@@ -8035,7 +8035,7 @@
 			(uuid "72f17d4b-c3a7-433e-a0c2-e0f488da3a8b")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR025")
 					(unit 1)
@@ -8105,7 +8105,7 @@
 			(uuid "dd7ebe2f-088d-4db3-8f3a-46cbde1c6935")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C27")
 					(unit 1)
@@ -8171,7 +8171,7 @@
 			(uuid "78ce325f-83e0-425b-a004-1f45d62b8e27")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR011")
 					(unit 1)
@@ -8238,7 +8238,7 @@
 			(uuid "e9a5be78-0173-4179-af0c-14176d17be56")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R7")
 					(unit 1)
@@ -8306,7 +8306,7 @@
 			(uuid "55202737-083b-44a1-82e8-b1dbad8ba0d0")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R4")
 					(unit 1)
@@ -8373,7 +8373,7 @@
 			(uuid "678fb585-b691-4bd4-960d-8a8918a9265e")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R21")
 					(unit 1)
@@ -8443,7 +8443,7 @@
 			(uuid "8c2de713-9af6-4f67-99c8-7b9c23bb79b4")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C3")
 					(unit 1)
@@ -8548,7 +8548,7 @@
 			(uuid "3d29afa1-ee14-4076-8968-0e2b83f15723")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "U4")
 					(unit 1)
@@ -8615,7 +8615,7 @@
 			(uuid "24352782-edc0-4148-84ca-d4d7a1c09881")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R5")
 					(unit 1)
@@ -8681,7 +8681,7 @@
 			(uuid "0df62df2-6325-45c6-8e94-7dd43951b762")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR027")
 					(unit 1)
@@ -8747,7 +8747,7 @@
 			(uuid "9dfbb1ae-601b-4ebf-96e0-f3930f6d5c66")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR034")
 					(unit 1)
@@ -8817,7 +8817,7 @@
 			(uuid "2bd233cb-6710-4c74-a31d-4cfe6fbbd3b5")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C36")
 					(unit 1)
@@ -8887,7 +8887,7 @@
 			(uuid "39cd2d1b-9c8a-498c-b2c5-eba6d3dcc710")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R1")
 					(unit 1)
@@ -8954,7 +8954,7 @@
 			(uuid "a3d51136-00a5-4cbc-8763-a665a9902133")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R16")
 					(unit 1)
@@ -9027,7 +9027,7 @@
 			(uuid "c43dc690-d287-43c6-ad4d-2a0205a3e273")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "TR2")
 					(unit 1)
@@ -9097,7 +9097,7 @@
 			(uuid "51bdbc49-477c-4984-9b0e-39bb11d8478d")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C4")
 					(unit 1)
@@ -9164,7 +9164,7 @@
 			(uuid "0541acdb-0a99-4ac2-9150-adb7c216c4b4")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R20")
 					(unit 1)
@@ -9233,7 +9233,7 @@
 			(uuid "d06d7b8a-d7c3-4c37-907e-b6eb723c2dc3")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C44")
 					(unit 1)
@@ -9300,7 +9300,7 @@
 			(uuid "42bc379f-a7d3-43fb-b9aa-0c1599edc7d8")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R17")
 					(unit 1)
@@ -9366,7 +9366,7 @@
 			(uuid "8913fe4a-8dbc-45f3-9761-515845c80dc6")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR09")
 					(unit 1)
@@ -9433,7 +9433,7 @@
 			(uuid "d66d78e2-11e5-4ba0-8517-de14d01a81d4")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R27")
 					(unit 1)
@@ -9503,7 +9503,7 @@
 			(uuid "59721515-af93-4221-a386-41d5e8e72dff")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R2")
 					(unit 1)
@@ -9573,7 +9573,7 @@
 			(uuid "8d6ee0c2-3ebc-4e44-b19c-1d2072f13267")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C22")
 					(unit 1)
@@ -9639,7 +9639,7 @@
 			(uuid "19e3e5a9-3716-43f6-872e-c826aaf8fd8a")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR043")
 					(unit 1)
@@ -9706,7 +9706,7 @@
 			(uuid "44cfa08f-5111-474e-b838-d6498b461237")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R9")
 					(unit 1)
@@ -9776,7 +9776,7 @@
 			(uuid "165c260d-5053-49ec-939c-774876cef4e5")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C37")
 					(unit 1)
@@ -9847,7 +9847,7 @@
 			(uuid "e7c4136c-21ca-451c-8a51-fb2388f10fe6")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C10")
 					(unit 1)
@@ -9925,7 +9925,7 @@
 			(uuid "65aded4b-7286-4b1c-ba5a-d50dbd6b1ad8")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "U6")
 					(unit 1)
@@ -10001,7 +10001,7 @@
 			(uuid "50475dfd-e8de-4868-89ff-8544ce28f835")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "U7")
 					(unit 1)
@@ -10067,7 +10067,7 @@
 			(uuid "2a5f9ccd-94da-4c56-9d90-38df94c330fc")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR07")
 					(unit 1)
@@ -10134,7 +10134,7 @@
 			(uuid "c4a70df2-a3fa-4c68-b2b1-0a7449b2001e")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R6")
 					(unit 1)
@@ -10201,7 +10201,7 @@
 			(uuid "ca344946-b67d-44e4-b272-7b8c16c43e91")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR016")
 					(unit 1)
@@ -10270,7 +10270,7 @@
 			(uuid "eaba666a-ea12-4d20-849f-9eb9703bdc1a")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C2")
 					(unit 1)
@@ -10340,7 +10340,7 @@
 			(uuid "0842f322-8952-4026-a880-dd567e8b4388")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C38")
 					(unit 1)
@@ -10410,7 +10410,7 @@
 			(uuid "1978cbe4-d550-4dde-bb0e-f608dbfd0d6e")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C28")
 					(unit 1)
@@ -10478,7 +10478,7 @@
 			(uuid "287d2307-dcc4-4d0d-915c-e7988fa8164f")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C1")
 					(unit 1)
@@ -10544,7 +10544,7 @@
 			(uuid "add27621-6a80-4a8f-80c3-48a83446404e")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR019")
 					(unit 1)
@@ -10611,7 +10611,7 @@
 			(uuid "f37c059e-31c8-4c0e-9162-faf6386163e0")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R26")
 					(unit 1)
@@ -10678,7 +10678,7 @@
 			(uuid "cf1a5ece-fa4f-428a-8fb4-afea69cbe6c7")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R34")
 					(unit 1)
@@ -10744,7 +10744,7 @@
 			(uuid "c09f69e4-38b9-48c9-8aa5-84416bf533a3")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR014")
 					(unit 1)
@@ -10810,7 +10810,7 @@
 			(uuid "33638806-ff89-4b41-bedf-6f7fd187c78b")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR024")
 					(unit 1)
@@ -10877,7 +10877,7 @@
 			(uuid "3573a34d-f556-45e5-9f19-6d7d6ca97789")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R22")
 					(unit 1)
@@ -10944,7 +10944,7 @@
 			(uuid "ee0fb58e-fbac-468e-965d-7c78c1280f4d")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C16")
 					(unit 1)
@@ -11010,7 +11010,7 @@
 			(uuid "6b5c8a00-75ef-4aea-beaf-876514428640")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR023")
 					(unit 1)
@@ -11080,7 +11080,7 @@
 			(uuid "541d4aaa-08fc-42c2-a22e-5254fec792c0")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C35")
 					(unit 1)
@@ -11241,7 +11241,7 @@
 			(uuid "2d929cee-b042-40e9-bb20-2ac6d46be825")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "J2")
 					(unit 1)
@@ -11308,7 +11308,7 @@
 			(uuid "4ee08a64-be7a-4b7c-98b4-9b4bbc222e62")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R25")
 					(unit 1)
@@ -11374,7 +11374,7 @@
 			(uuid "2d3bf755-b2af-4376-99ea-89a9187338e0")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR031")
 					(unit 1)
@@ -11440,7 +11440,7 @@
 			(uuid "92f37d9e-76bd-488a-8725-79ba0c86cd7a")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR05")
 					(unit 1)
@@ -11507,7 +11507,7 @@
 			(uuid "6e681df7-950f-4fda-afdb-f5c020178da8")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R19")
 					(unit 1)
@@ -11577,7 +11577,7 @@
 			(uuid "c641cf28-d6de-45ce-b561-ae8d63730a29")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C41")
 					(unit 1)
@@ -11687,7 +11687,7 @@
 			(uuid "00cf2156-5d23-40a5-8a5f-383de806d54e")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "J3")
 					(unit 1)
@@ -11754,7 +11754,7 @@
 			(uuid "b2296e6f-1e7d-4539-b7fd-1ea153bfbde3")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "TP2")
 					(unit 1)
@@ -11821,7 +11821,7 @@
 			(uuid "a8642c74-a676-4896-aade-3e2e43df448d")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C17")
 					(unit 1)
@@ -11911,7 +11911,7 @@
 			(uuid "c3a5a2cc-311c-41bb-99fc-3bfb41a2eb92")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "U9")
 					(unit 1)
@@ -11977,7 +11977,7 @@
 			(uuid "ae6e665c-997d-4edc-9c03-8d3538a402e5")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR08")
 					(unit 1)
@@ -12043,7 +12043,7 @@
 			(uuid "ce305473-3aec-48f9-82e2-4f005742932c")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR041")
 					(unit 1)
@@ -12110,7 +12110,7 @@
 			(uuid "05d44f0c-c933-4d04-ac83-327f8b7c0002")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R3")
 					(unit 1)
@@ -12178,7 +12178,7 @@
 			(uuid "3eba5671-3dde-432b-9ffc-25bbf6e70619")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C6")
 					(unit 1)
@@ -12248,7 +12248,7 @@
 			(uuid "d1bf679b-9bd3-4f00-90a4-d44df6b1750b")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C39")
 					(unit 1)
@@ -12315,7 +12315,7 @@
 			(uuid "efc3f5c4-7050-4d69-b0a2-b18942969dc1")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R36")
 					(unit 1)
@@ -12381,7 +12381,7 @@
 			(uuid "09b8372f-7a7f-44cd-946d-5e4683b00f4c")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR046")
 					(unit 1)
@@ -12447,7 +12447,7 @@
 			(uuid "3a7968a6-e5b5-4dcc-a8e2-fffbe5edd501")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR01")
 					(unit 1)
@@ -12608,7 +12608,7 @@
 			(uuid "4f584b3e-99c5-4d70-89bb-6c8e04118db6")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "J1")
 					(unit 1)
@@ -12675,7 +12675,7 @@
 			(uuid "c7294d62-8835-45b6-a772-60c3f8ab35c4")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR013")
 					(unit 1)
@@ -12742,7 +12742,7 @@
 			(uuid "165ed373-731a-453f-b414-73a44b9ff080")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "TP1")
 					(unit 1)
@@ -12808,7 +12808,7 @@
 			(uuid "995ab268-02d1-420a-be27-9adc179fe630")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR042")
 					(unit 1)
@@ -12878,7 +12878,7 @@
 			(uuid "8dd7d609-b6b0-404b-810a-669a96c9a25f")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C31")
 					(unit 1)
@@ -12986,7 +12986,7 @@
 			(uuid "e06106ea-d3a0-4355-9904-f51504e8aea7")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "J4")
 					(unit 1)
@@ -13052,7 +13052,7 @@
 			(uuid "b5a6b46d-8439-4102-b9f9-af28a00ef98b")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR045")
 					(unit 1)
@@ -13128,7 +13128,7 @@
 			(uuid "61580a0b-16f2-45f6-8fbf-7a539d5cf8e8")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "U2")
 					(unit 1)
@@ -13195,7 +13195,7 @@
 			(uuid "d5bb78fd-14fc-4b20-8681-fff9a9241a51")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R23")
 					(unit 1)
@@ -13308,7 +13308,7 @@
 			(uuid "27425326-bb3a-42aa-adc5-c3423d916f7d")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "U3")
 					(unit 1)
@@ -13374,7 +13374,7 @@
 			(uuid "365de72e-2a16-4e5b-b187-3d8f8910bb99")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR02")
 					(unit 1)
@@ -13440,7 +13440,7 @@
 			(uuid "e62d0917-2db9-4a61-b4ee-76dd510b837e")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR012")
 					(unit 1)
@@ -13506,7 +13506,7 @@
 			(uuid "52835c13-b12a-40df-879f-781d8963db36")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR04")
 					(unit 1)
@@ -13578,7 +13578,7 @@
 			(uuid "a2a2479c-e4f1-44e6-8075-deece1a2af57")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "U8")
 					(unit 1)
@@ -13643,7 +13643,7 @@
 			(uuid "df780fcc-30ef-4314-bd31-cfb52c3395fb")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR044")
 					(unit 1)
@@ -13713,7 +13713,7 @@
 			(uuid "f10078d4-8363-4f6d-8e8b-ec3457ae0865")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C42")
 					(unit 1)
@@ -13783,7 +13783,7 @@
 			(uuid "f53d97fa-f98a-4598-9161-bc531305e89e")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C40")
 					(unit 1)
@@ -13851,7 +13851,7 @@
 			(uuid "e646c7f5-bcd6-4d93-b4de-40ec0f32e5a0")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R28")
 					(unit 1)
@@ -13921,7 +13921,7 @@
 			(uuid "3fc090f4-82b4-4349-a5f3-eeb374da9300")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C5")
 					(unit 1)
@@ -13990,7 +13990,7 @@
 			(uuid "8c702600-ae6d-449a-aab0-80e157638f5a")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C8")
 					(unit 1)
@@ -14060,7 +14060,7 @@
 			(uuid "11c6efd7-dca4-4b4a-83fe-ed972d4b95ef")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C43")
 					(unit 1)
@@ -14126,7 +14126,7 @@
 			(uuid "c4b4bbde-c450-42a1-8fc5-72c761e8ca47")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR03")
 					(unit 1)
@@ -14216,7 +14216,7 @@
 			(uuid "4503f2e3-3a42-4676-bb90-865d0c409472")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "U5")
 					(unit 1)
@@ -14282,7 +14282,7 @@
 			(uuid "85a0fe97-cdc6-472a-9989-8da1eafac448")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR032")
 					(unit 1)
@@ -14349,7 +14349,7 @@
 			(uuid "7b22250d-e265-4f47-b7ea-78a1c9600e8f")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R18")
 					(unit 1)
@@ -14419,7 +14419,7 @@
 			(uuid "bf1052cc-81ee-4f0b-a0bf-ad9ff28f1d55")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C34")
 					(unit 1)
@@ -14486,7 +14486,7 @@
 			(uuid "13c3de1f-7ff7-45af-b84c-edbc707e751b")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "R35")
 					(unit 1)
@@ -14552,7 +14552,7 @@
 			(uuid "40322219-97d2-47da-a94f-ce78a99af8c1")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR015")
 					(unit 1)
@@ -14618,7 +14618,7 @@
 			(uuid "18498657-d650-4d87-bc4c-f35e66aeee65")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "#PWR021")
 					(unit 1)
@@ -14687,7 +14687,7 @@
 			(uuid "e20aa85a-934a-4aa3-acd9-56e933d78ddb")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "C24")
 					(unit 1)
@@ -14755,7 +14755,7 @@
 			(uuid "b50dc023-0d11-48be-b7fd-b5c044043cab")
 		)
 		(instances
-			(project "qse2_ad8137_carrier"
+			(project "qse2"
 				(path "/e85a7744-7948-44f7-b41f-dd9b75249984"
 					(reference "J6")
 					(unit 1)
