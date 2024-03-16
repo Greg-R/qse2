@@ -330,6 +330,7 @@ After soldering the 0 ohm jumpers, the board looks like this:
 
 <https://drive.google.com/file/d/1ZGpIw-MR3Nxjw2eucg-ZPrTyQX_G3FnG/view?usp=sharing>
 
+Note that the Audio Adapter board will continue to work with the original QSE boards, as they have their own input blocking capacitors.
 
 ## References and Further Reading
 
