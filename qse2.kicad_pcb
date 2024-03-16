@@ -18533,18 +18533,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3.3V"
-		(at 129.125 82.675 0)
-		(layer "F.SilkS")
-		(uuid "3567b201-59d6-4660-b900-cc9485bcc81b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "T41 EXPERIMENTERS PLATFORM"
 		(at 125.03 101.46 0)
 		(layer "F.SilkS")
@@ -18570,7 +18558,7 @@
 		)
 	)
 	(gr_text "5.0V"
-		(at 129.4 76.15 0)
+		(at 123.5 79.2 0)
 		(layer "F.SilkS")
 		(uuid "87e0f558-d988-4445-8ae6-b4beed4ef0e9")
 		(effects

@@ -14,6 +14,9 @@ performance of this transmitter module.  What you see is what you get!
 Gerber files for PCB fabrication are included in the gerbers folder.
 A PDF of the schematic (qsedc2.pdf) is included for quick viewing of the circuit design.
 
+QSE2DC requires a simple modification to the Audio Adapter board.  The modification is
+described below.
+
 Please note that the components used in this design increase the cost compared to the
 original design.  However, the board is easier to build.  A link to a public Digikey
 BOM is included so that the prospective builder can evaluate the cost before proceeding.
@@ -97,10 +100,10 @@ offsets in the I and Q signals applied to the inputs of the IQ modulator.  This 
 how the T41 calibration process works.
 
 "Direct Coupled" is a significant difference from the original QSE.  The original QSE is capacitively coupled.
-This makes it impossible to perform carrier nulling.  The connections between the I and Q DACs is direct
+This makes it impossible to perform carrier nulling.  The connections between the I and Q DACs are direct
 coupled.  There are no blocking capacitors.  This makes it possible to perform carrier nulling (calibration).
 
-A simple modification to the Teensy Audio Adapter board is required, as the circuit includes blocking capacitors.
+A simple modification to the Teensy Audio Adapter board is required, as that circuit includes blocking capacitors.
 The coupling capacitors are removed and replaced with 0 ohm jumper resistors.
 
 ### Software Modifications for Divide-by-two
@@ -298,6 +301,35 @@ published design files.
 <https://drive.google.com/file/d/1Lo7MUv4n7TAvsBvKD-P0JrY5RbWsMqeq/view?usp=sharing>
 
 <https://drive.google.com/file/d/1iPaU0uy0F-LnCR35QzV5CAkI_wy7EVRM/view?usp=sharing>
+
+### Modification of the Teensy Audio Adapter Board
+
+The Teensy adapter board is described here:
+
+<https://www.pjrc.com/store/teensy3_audio.html>
+
+The T41 uses the left and right line-out channels for I and Q quadrature modulation.
+The schematic is here:
+
+<https://www.pjrc.com/store/schematic_audio4.png>
+
+Left and right line-out channels are from pins 11 and 12 of the SGTL5000 codec IC.  Note the blocking 2.2uF capacitors.
+These blocking capacitors must be replaced with 0 ohm jumpers.  These are standard surface-mount jumpers of size 0603
+(1608 metric).
+
+Here is a photo of an unmodified Audio Adapter board:
+
+<https://drive.google.com/file/d/1fus3cwruZrJZ65n14kACibjglYPGYCYO/view?usp=sharing>
+
+In the photo you can see 4 capacitors below the square IC package.  The 2 capacitors to be replaced are the ones on the left.
+This can be seen clearly in this photo showing the capacitors removed:
+
+<https://drive.google.com/file/d/1r3nJviJWX6477MOt4Egrk7M0-oNcgws4/view?usp=sharing>
+
+After soldering the 0 ohm jumpers, the board looks like this:
+
+<https://drive.google.com/file/d/1ZGpIw-MR3Nxjw2eucg-ZPrTyQX_G3FnG/view?usp=sharing>
+
 
 ## References and Further Reading
 
