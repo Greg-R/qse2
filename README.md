@@ -1,3 +1,5 @@
+# QSE2DC is being revised.  The board will return soon.
+
 # QSE2DC
 
 This is the PCB for the QSE2DC exciter module for the T41 "Software Defined Transceiver".
