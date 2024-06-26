@@ -161,4 +161,5 @@
   (lib (name "AD8137")(type "KiCad")(uri "/home/raven/gitrepos/pcb/downloaded_parts/KiCADv6/AD8137.kicad_sym")(options "")(descr ""))
   (lib (name "NCP115ASN330T2G")(type "KiCad")(uri "/home/raven/gitrepos/pcb/downloaded_parts/KiCADv6/2024-01-13_20-42-55.kicad_sym")(options "")(descr ""))
   (lib (name "UA78M05IDCYR")(type "KiCad")(uri "/home/raven/gitrepos/pcb/downloaded_parts/KiCADv6/2024-02-02_14-06-22.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP508SQ33T1G")(type "KiCad")(uri "/home/raven/gitrepos/pcb/downloaded_parts/KiCADv6/2024-06-18_00-14-07.kicad_sym")(options "")(descr ""))
 )
