@@ -21,7 +21,7 @@ own a laboratory full of expensive test equipment.  There are no guarantees or o
 performance of this transmitter module.  What you see is what you get!
 
 Gerber files for PCB fabrication are included in the gerbers folder.
-A PDF of the schematic (qsedc2.pdf) is included for quick viewing of the circuit design in the doc
+A PDF of the schematic (qse2dcez.pdf) is included for quick viewing of the circuit design in the doc
 folder.
 
 QSE2DCEZ requires a simple modification to the Audio Adapter board.  The modification is
@@ -154,9 +154,9 @@ find the optimum carrier null.
 
 Calibration numbers are saved to the EEPROM non-volatile memory at the conclusion of the process.
 
-### T41EEE Arduino Sketch with Special Features for QSEDC
+### T41EEE Arduino Sketch with Special Features for QSE2DC
 
-The Arduino sketch designed to work with QSEDC is located here:
+The Arduino sketch designed to work with QSE2DC is located here:
 
 <https://github.com/Greg-R/T41EEE>
 
@@ -297,7 +297,7 @@ There is a dot on the parts to indicate Pin 1, however, it is very hard to see. 
 Don't place R3.  Placing this jumper implements shutdown of the differential amplifiers during receive.  This feature has not been
 tested.
 
-The two-pin header J6 can be optionally placed if it is convenient to route the TXRX signal from the QSEDC board.
+The two-pin header J6 can be optionally placed if it is convenient to route the TXRX signal from the QSE2DC board.
 
 ### Bottom Side Parts
 
@@ -315,14 +315,14 @@ orientation of the local oscillator SMA connectors.
 
 Please note that the cable from the Main board to J1, which is the transmit local oscillator, should be as short as possible.
 
-### High Resolution Photos of QSEDCEZ
+### High Resolution Photos of QSE2DCEZ
 
 Links to photos of a fully constructed QSE2DCEZ follow.  Please note that this board has some small differences compared to the
 published design files.
 
-<https://drive.google.com/file/d/1Lo7MUv4n7TAvsBvKD-P0JrY5RbWsMqeq/view?usp=sharing>
+<https://drive.google.com/file/d/1ppn1s-qnfFk1_MFb1BBBf0P1YE_oERzc/view?usp=sharing>
 
-<https://drive.google.com/file/d/1iPaU0uy0F-LnCR35QzV5CAkI_wy7EVRM/view?usp=sharing>
+<https://drive.google.com/file/d/1Ar62Yr8tIbw1fzWcsA5x5hLztIwdn6H2/view?usp=sharing>
 
 ### Modification of the Teensy Audio Adapter Board
 
