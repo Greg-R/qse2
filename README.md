@@ -30,9 +30,9 @@ original design.  However, the board is easier to build.  A link to a public Dig
 BOM is included so that the prospective builder can evaluate the cost before proceeding.
 
 Note that there is another version of this board which swaps the TSOP package parts with
-SIOC for ease of soldering.  This alternative version is here:
+SIOC for ease of soldering.  This alternative version, QSE2DCEZ is here:
 
-<>
+<https://github.com/Greg-R/qse2/tree/qse2dcez>
 
 ## Divide-by-2 versus Divide-by-4
 
