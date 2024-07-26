@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-# QSE2DC is being revised.  The board will return soon.
-
-# QSE2DC
-=======
 # QSE2DC Version 1.1
->>>>>>> quadupgrade
 
 This is the PCB for the QSE2DC exciter module for the T41 "Software Defined Transceiver".
 The PCB was designed using the open-source design tool Kicad 8.
