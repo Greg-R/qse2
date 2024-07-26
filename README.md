@@ -86,11 +86,7 @@ For optimal quadrature circuit performance, the coaxial cable between the Main b
 as short as possible.
 
 ### Why is it called QSE2DC?
-<<<<<<< HEAD
-# QSE2DC is being revised.  The board will return soon.
 
-# QSE2DC
-=======
 QSE2DC -> "Quadrature Sampling Exciter Two Direct Coupled"
 
 The circuit is what is called an "IQ modulator".  Watch this video to learn more:
