@@ -8,8 +8,8 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "QSD Divide by Two")
-		(date "2023-07-26")
+		(title "QSE2DCEZ Divide by Two")
+		(date "2024-07-26")
 	)
 	(layers
 		(0 "F.Cu" jumper)
@@ -1012,7 +1012,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at -3.9 0.75 360)
+			(at -3.9 0.75 0)
 			(layer "F.SilkS")
 			(uuid "5625fbb1-179b-4e00-b2a3-f19a3872a68d")
 			(effects
@@ -1178,7 +1178,7 @@
 			(uuid "48acb8b7-48e0-4e8c-9553-a1f8dfa8e708")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "372940ce-fe82-4a71-b60a-1c0d54ee63ab")
 			(effects
@@ -7127,7 +7127,7 @@
 			)
 		)
 		(property "Value" "NCP115ASN330T2G"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7622,7 +7622,7 @@
 			(uuid "b5c7e288-940f-4a4d-a438-555525241e19")
 		)
 		(fp_text user "*"
-			(at -1.59385 -2.601 270)
+			(at -1.59385 -2.601 -90)
 			(layer "F.SilkS")
 			(uuid "0557da3e-1120-4ef8-9198-f6ff4d256b66")
 			(effects
@@ -7645,7 +7645,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -0.5715 -1.5088 270)
+			(at -0.5715 -1.5088 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "386a4d67-1a5d-4b5f-a60d-c6c49a99c258")
@@ -21563,7 +21563,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "QSE2DC"
+	(gr_text "QSE2DCEZ"
 		(at 156.21 43.942 0)
 		(layer "F.SilkS")
 		(uuid "7d628523-b557-4ec3-b088-d7ac4cdab3a3")

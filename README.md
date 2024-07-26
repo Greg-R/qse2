@@ -1,9 +1,11 @@
-# QSE2DC Version 1.1
+# QSE2DCEZ Version 1.1
 
-This is the PCB for the QSE2DC exciter module for the T41 "Software Defined Transceiver".
+This is the PCB for the QSE2DCEZ exciter module for the T41 "Software Defined Transceiver".
 The PCB was designed using the open-source design tool Kicad 8.
 
-The QSE2DC evolved from the original V011 design which remains the most recently published
+QSE2DCEZ uses SOIC package parts rather than TSOP for ease of assembly (easier to solder).
+
+The QSE2DCEZ evolved from the original V011 design which remains the most recently published
 receiver module for the T41 Software Defined Transceiver.
 
 Version 1.1 adds another inverter/buffer IC which decreases loading on the local oscillator
@@ -13,7 +15,7 @@ A connector is provided to supply 5.0 volts and I2C interface to an Si5351 PLL m
 This allows a more direct connection of the PLL output to the QSE2DC clock input.  When this
 option is used, the PLL output from the T41 Main board is no longer required.
 
-The goals of the QSE2DC are to improve transmitter performance, and in particular, the performance
+The goals of the QSE2DCEZ are to improve transmitter performance, and in particular, the performance
 in the 10 meter amateur radio band.  Please note that the designer of this project does not
 own a laboratory full of expensive test equipment.  There are no guarantees or other warranties of the
 performance of this transmitter module.  What you see is what you get!
@@ -22,17 +24,17 @@ Gerber files for PCB fabrication are included in the gerbers folder.
 A PDF of the schematic (qsedc2.pdf) is included for quick viewing of the circuit design in the doc
 folder.
 
-QSE2DC requires a simple modification to the Audio Adapter board.  The modification is
+QSE2DCEZ requires a simple modification to the Audio Adapter board.  The modification is
 described below.
 
 Please note that the components used in this design increase the cost compared to the
 original design.  However, the board is easier to build.  A link to a public Digikey
 BOM is included so that the prospective builder can evaluate the cost before proceeding.
 
-Note that there is another version of this board which swaps the TSOP package parts with
-SIOC for ease of soldering.  This alternative version is here:
+Note that there is another version of this board which swaps the SIOC package parts with
+TSOP.   Soldering TSOP parts is a little bit more difficult.  This alternative version QSE2DCEZ is here:
 
-<>
+<https://github.com/Greg-R/qse2/tree/main>
 
 ## Divide-by-2 versus Divide-by-4
 
@@ -59,7 +61,7 @@ One page the same specification is shown for Vcc = 5.0 volts, and the maximum in
 This shows a method to increase the frequency range, however, a matching 5.0 volt specified multiplexer
 must be used.  A 5.0 volt multiplexer is in fact available at no cost penalty.
 
-QSE2DC resolves the high frequency problem by using a divide-by-2 quadrature circuit.  The frequency is now:
+QSE2DCEZ resolves the high frequency problem by using a divide-by-2 quadrature circuit.  The frequency is now:
 
 28.510 MHz * 2 = 57.020 MHz
 
@@ -85,16 +87,18 @@ The divide-by-2 circuit was simulated and found to produce acceptable quadrature
 For optimal quadrature circuit performance, the coaxial cable between the Main board and the QSD2 should be
 as short as possible.
 
-### Why is it called QSE2DC?
+### Why is it called QSE2DCEZ?
 
-QSE2DC -> "Quadrature Sampling Exciter Two Direct Coupled"
+QSE2DCEZ -> "Quadrature Sampling Exciter Two Direct Coupled"
+
+The "EZ" is due to the substitution of SOIC package parts for ease of assembly.
 
 The circuit is what is called an "IQ modulator".  Watch this video to learn more:
 
 <https://www.youtube.com/watch?v=RHFZUqUM8DY>
 
 Note that in the above video the IQ modulator is assembled from double-balanced diode ring mixers.
-This is another way to implement an IQ modulator.  The QSE2DC is a sampling type circuit topology.
+This is another way to implement an IQ modulator.  The QSE2DCEZ is a sampling type circuit topology.
 From a "black box" perspective, the two circuits perform the same function.
 
 #### Carrier Nulling
@@ -165,7 +169,7 @@ You will need to modify the file "MyConfigurationFile.h".  The default code look
     // Uncomment this line for QSE2.
     //#define QSE2
 
-Assuming you are using both QSD2 and QSE2DC, you should change the code to this:
+Assuming you are using both QSD2 and QSE2DCEZ, you should change the code to this:
 
     // Set multiplication factors for your QSD and QSE boards.
     #define MASTER_CLK_MULT_RX 2
@@ -198,9 +202,9 @@ and another clock output is shifted by 90 degrees.  This is directly applied to 
 and thus this circuit is very simple.  This also exploits the maximum upper frequency range of the Si5351 phase-lock-loop IC.  
 On the other hand, this introduces a low frequency limit and it may not be possible to cover the LF and VLF amateur bands with this scheme.
 
-## Other Changes to the QSE2DC Circuit Design
+## Other Changes to the QSE2DCEZ Circuit Design
 
-The QSE2DC exciter module circuitry is almost entirely revised compared to its ancestor the V011 QSE.
+The QSE2DCEZ exciter module circuitry is almost entirely revised compared to its ancestor the V011 QSE.
 
 ### Pi RF Attenuator
 
@@ -210,7 +214,7 @@ of the power amplifier.  The nominal design has about 3 dB of attenuation.
 ### Output Transformer
 
 The original V011 modulator circuit uses a hand-wound toroidal output transformer with a tapped primary.
-QSE2DC changes to a ready-made surface mount transformer which is untapped:
+QSE2DCEZ changes to a ready-made surface mount transformer which is untapped:
 
 <https://www.minicircuits.com/pdfs/ADT1-1+.pdf>
 
@@ -245,7 +249,7 @@ The PCB layout was completed using Kicad version 8.  This is an open-source tool
 to design the V010 and V011 series boards.
 
 The layout in the quadrature generator and modulator areas was very carefully routed for maximum frequency performance.
-The QSE2DC is approximately the same board size as V011, but there is unused area to add additional circuitry if desired.
+The QSE2DCEZ is approximately the same board size as V011, but there is unused area to add additional circuitry if desired.
 
 The prototype PCBs were fabricated by PCBWay at a cost of US$1.00 each.  Shipping was about US$25.00 for quantity 5 boards.
 
@@ -260,7 +264,7 @@ to find subsitutes as required.
 
 ## Build Tips
 
-In general, QSE2DC is easier to build than the original V010/V011 series boards.  There are a few items to be aware of to avoid
+In general, QSE2DCEZ is easier to build than the original V010/V011 series boards.  There are a few items to be aware of to avoid
 build errors.
 
 The most probable error(s) are incorrect orientation of the flip-flop, multiplexer, transformer, and differential amplifier devices.
@@ -302,18 +306,18 @@ any problems with the top-side components desoldering.
 
 ### SMA Connectors
 
-Take a good look at the placement of the board in your T41 radio.  You will want the SMA connectors of the QSE2DC in the orientation for
+Take a good look at the placement of the board in your T41 radio.  You will want the SMA connectors of the QSE2DCEZ in the orientation for
 easy coaxial cable routing.  I used 90 degree connectors as this was the easiest for extensive testing, but not necessarily the best for
 permanent installation.  Also, you may choose to put the SMAs on one side or the other for optimal cable routing.
 
-An investigation is underway to integrate an Si5351 local oscillator board with QSD2 and QSE2DC.  This will require a particular
+An investigation is underway to integrate an Si5351 local oscillator board with QSD2 and QSE2DCEZ.  This will require a particular
 orientation of the local oscillator SMA connectors.
 
 Please note that the cable from the Main board to J1, which is the transmit local oscillator, should be as short as possible.
 
-### High Resolution Photos of QSEDC
+### High Resolution Photos of QSEDCEZ
 
-Links to photos of a fully constructed QSE2DC follow.  Please note that this board has some small differences compared to the
+Links to photos of a fully constructed QSE2DCEZ follow.  Please note that this board has some small differences compared to the
 published design files.
 
 <https://drive.google.com/file/d/1Lo7MUv4n7TAvsBvKD-P0JrY5RbWsMqeq/view?usp=sharing>
@@ -352,7 +356,7 @@ Note that the Audio Adapter board will continue to work with the original QSE bo
 
 ## References and Further Reading
 
-The QSE2DC is an attempt to integrate the best circuits from several sources into a high-performance HF exciter module.
+The QSE2DCEZ is an attempt to integrate the best circuits from several sources into a high-performance HF exciter module.
 Here is a list of sources which inspired the design of the QSD2:
 
 1.  "Digital Signal Processing and Software Defined Radio, Theory and Construction of the T41-EP Software Defined Transceiver",

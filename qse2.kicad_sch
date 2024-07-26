@@ -5,8 +5,8 @@
 	(uuid "e85a7744-7948-44f7-b41f-dd9b75249984")
 	(paper "A4")
 	(title_block
-		(title "QSE2DC with Divide-by-Two Quadrature")
-		(date "2024-06-18")
+		(title "QSE2DCEZ with Divide-by-Two Quadrature")
+		(date "2024-07-26")
 		(rev "1.1")
 	)
 	(lib_symbols
@@ -7788,7 +7788,7 @@
 		)
 		(uuid "c6340f0a-f77b-4568-974f-1896968f8a2c")
 	)
-	(text "QSE2DC with Divide-by-Two Quadrature"
+	(text "QSE2DCEZ with Divide-by-Two Quadrature"
 		(exclude_from_sim no)
 		(at 106.807 21.844 0)
 		(effects
