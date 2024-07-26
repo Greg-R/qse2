@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # QSE2DC is being revised.  The board will return soon.
 
 # QSE2DC
+=======
+# QSE2DC Version 1.1
+>>>>>>> quadupgrade
 
 This is the PCB for the QSE2DC exciter module for the T41 "Software Defined Transceiver".
 The PCB was designed using the open-source design tool Kicad 8.
@@ -8,13 +12,21 @@ The PCB was designed using the open-source design tool Kicad 8.
 The QSE2DC evolved from the original V011 design which remains the most recently published
 receiver module for the T41 Software Defined Transceiver.
 
+Version 1.1 adds another inverter/buffer IC which decreases loading on the local oscillator
+input.  This improves the quality of the quadrature quality in the higher bands.
+
+A connector is provided to supply 5.0 volts and I2C interface to an Si5351 PLL module.
+This allows a more direct connection of the PLL output to the QSE2DC clock input.  When this
+option is used, the PLL output from the T41 Main board is no longer required.
+
 The goals of the QSE2DC are to improve transmitter performance, and in particular, the performance
 in the 10 meter amateur radio band.  Please note that the designer of this project does not
 own a laboratory full of expensive test equipment.  There are no guarantees or other warranties of the
 performance of this transmitter module.  What you see is what you get!
 
 Gerber files for PCB fabrication are included in the gerbers folder.
-A PDF of the schematic (qsedc2.pdf) is included for quick viewing of the circuit design.
+A PDF of the schematic (qsedc2.pdf) is included for quick viewing of the circuit design in the doc
+folder.
 
 QSE2DC requires a simple modification to the Audio Adapter board.  The modification is
 described below.
@@ -22,6 +34,11 @@ described below.
 Please note that the components used in this design increase the cost compared to the
 original design.  However, the board is easier to build.  A link to a public Digikey
 BOM is included so that the prospective builder can evaluate the cost before proceeding.
+
+Note that there is another version of this board which swaps the TSOP package parts with
+SIOC for ease of soldering.  This alternative version is here:
+
+<>
 
 ## Divide-by-2 versus Divide-by-4
 
@@ -162,6 +179,11 @@ Assuming you are using both QSD2 and QSE2DC, you should change the code to this:
 
     // Uncomment this line for QSE2.
     #define QSE2
+
+If you are using the Si5351 module, there is another line to uncomment:
+
+    // Uncomment this line if using an external PLL module.
+    #define PLLMODULE
 
 ## A Summary of Methods to Extend the T41 Frequency Range
 
