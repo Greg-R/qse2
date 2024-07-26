@@ -316,9 +316,9 @@ Please note that the cable from the Main board to J1, which is the transmit loca
 Links to photos of a fully constructed QSE2DC follow.  Please note that this board has some small differences compared to the
 published design files.
 
-<https://drive.google.com/file/d/1Lo7MUv4n7TAvsBvKD-P0JrY5RbWsMqeq/view?usp=sharing>
+<https://drive.google.com/file/d/1RiFj8eh0M4xpLRnGe3M7R_jGNsO_mgoc/view?usp=sharing>
 
-<https://drive.google.com/file/d/1iPaU0uy0F-LnCR35QzV5CAkI_wy7EVRM/view?usp=sharing>
+<https://drive.google.com/file/d/1a_t5G4x1_PzWmMshmwpoerwPoXeARqb_/view?usp=sharing>
 
 ### Modification of the Teensy Audio Adapter Board
 
@@ -339,11 +339,7 @@ Here is a photo of an unmodified Audio Adapter board:
 
 <https://drive.google.com/file/d/1fus3cwruZrJZ65n14kACibjglYPGYCYO/view?usp=sharing>
 
-In the photo you can see 4 capacitors below the square IC package.  The 2 capac<<<<<<< HEAD
-# QSE2DC is being revised.  The board will return soon.
-
-# QSE2DC
-=======itors to be replaced are the ones on the left.
+In the photo you can see 4 capacitors below the square IC package.  The 2 capacitors to be replaced are the ones on the left.
 This can be seen clearly in this photo showing the capacitors removed:
 
 <https://drive.google.com/file/d/1r3nJviJWX6477MOt4Egrk7M0-oNcgws4/view?usp=sharing>
