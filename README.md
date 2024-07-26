@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-# QSE2DC is being revised.  The board will return soon.
-
-# QSE2DC
-=======
 # QSE2DC Version 1.1
->>>>>>> quadupgrade
 
 This is the PCB for the QSE2DC exciter module for the T41 "Software Defined Transceiver".
 The PCB was designed using the open-source design tool Kicad 8.
@@ -92,7 +86,11 @@ For optimal quadrature circuit performance, the coaxial cable between the Main b
 as short as possible.
 
 ### Why is it called QSE2DC?
+<<<<<<< HEAD
+# QSE2DC is being revised.  The board will return soon.
 
+# QSE2DC
+=======
 QSE2DC -> "Quadrature Sampling Exciter Two Direct Coupled"
 
 The circuit is what is called an "IQ modulator".  Watch this video to learn more:
@@ -345,7 +343,11 @@ Here is a photo of an unmodified Audio Adapter board:
 
 <https://drive.google.com/file/d/1fus3cwruZrJZ65n14kACibjglYPGYCYO/view?usp=sharing>
 
-In the photo you can see 4 capacitors below the square IC package.  The 2 capacitors to be replaced are the ones on the left.
+In the photo you can see 4 capacitors below the square IC package.  The 2 capac<<<<<<< HEAD
+# QSE2DC is being revised.  The board will return soon.
+
+# QSE2DC
+=======itors to be replaced are the ones on the left.
 This can be seen clearly in this photo showing the capacitors removed:
 
 <https://drive.google.com/file/d/1r3nJviJWX6477MOt4Egrk7M0-oNcgws4/view?usp=sharing>
