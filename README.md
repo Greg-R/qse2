@@ -257,7 +257,7 @@ The prototype PCBs were fabricated by PCBWay at a cost of US$1.00 each.  Shippin
 
 A public Digikey BOM is here:
 
-<https://www.digikey.com/en/mylists/list/0OK3JOSXY7>
+<https://www.digikey.com/en/mylists/list/XQQB1BJVVE>
 
 Please note that specific parts may or may not be available when attempting to order.  It is the responsibility of the builder
 to find subsitutes as required.

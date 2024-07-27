@@ -7664,6 +7664,16 @@
 		)
 		(uuid "442a7397-87ac-49d3-9062-83454c955b16")
 	)
+	(text "DON'T PLACE\nJ7 R5 R7"
+		(exclude_from_sim no)
+		(at 18.415 144.145 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b7d6ac0-6427-437c-82f0-5f395ec9acea")
+	)
 	(text "IN PHASE"
 		(exclude_from_sim no)
 		(at 28.575 123.825 0)
