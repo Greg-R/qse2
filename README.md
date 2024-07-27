@@ -303,7 +303,7 @@ The two-pin header J6 can be optionally placed if it is convenient to route the 
 
 ### Bottom Side Parts
 
-There are 4 capacitors on the bottom side of the PCB.  These should be soldered last.  I was able to use a hot air gun without
+There are 5 capacitors and 1 resistor on the bottom side of the PCB.  These should be soldered last.  I was able to use a hot air gun without
 any problems with the top-side components desoldering.
 
 ### SMA Connectors
@@ -359,7 +359,7 @@ Note that the Audio Adapter board will continue to work with the original QSE bo
 ## References and Further Reading
 
 The QSE2DCEZ is an attempt to integrate the best circuits from several sources into a high-performance HF exciter module.
-Here is a list of sources which inspired the design of the QSD2:
+Here is a list of sources which inspired the design of the QSE2DCEZ:
 
 1.  "Digital Signal Processing and Software Defined Radio, Theory and Construction of the T41-EP Software Defined Transceiver",
 by Albert F. Peter, AC8GY, and Dr. Jack Purdum, W8TEE.  This is the ultimate resource for builders of the T41 Software Defined
