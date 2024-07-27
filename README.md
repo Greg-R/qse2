@@ -19,7 +19,7 @@ own a laboratory full of expensive test equipment.  There are no guarantees or o
 performance of this transmitter module.  What you see is what you get!
 
 Gerber files for PCB fabrication are included in the gerbers folder.
-A PDF of the schematic (qsedc2.pdf) is included for quick viewing of the circuit design in the doc
+A PDF of the schematic (qse2dc.pdf) is included for quick viewing of the circuit design in the doc
 folder.
 
 QSE2DC requires a simple modification to the Audio Adapter board.  The modification is
@@ -292,6 +292,8 @@ There is a dot on the parts to indicate Pin 1, however, it is very hard to see. 
 
 Don't place R3.  Placing this jumper implements shutdown of the differential amplifiers during receive.  This feature has not been
 tested.
+
+Don't place J7, R5 and R7.  These parts will be used with a future Main board with I2C output for routing to an Si5351 module.
 
 The two-pin header J6 can be optionally placed if it is convenient to route the TXRX signal from the QSEDC board.
 
