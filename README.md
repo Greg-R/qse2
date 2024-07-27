@@ -297,7 +297,9 @@ There is a dot on the parts to indicate Pin 1, however, it is very hard to see. 
 Don't place R3.  Placing this jumper implements shutdown of the differential amplifiers during receive.  This feature has not been
 tested.
 
-The two-pin header J6 can be optionally placed if it is convenient to route the TXRX signal from the QSE2DC board.
+Don't place J7, R5, and R7.  These parts are for future use with an Si5351 module.
+
+The two-pin header J6 can be optionally placed if it is convenient to route the TXRX signal from the QSE2DCEZ board.
 
 ### Bottom Side Parts
 
