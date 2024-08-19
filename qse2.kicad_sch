@@ -9962,15 +9962,15 @@
 		(fields_autoplaced yes)
 		(uuid "263c9e5f-430d-4dd4-af27-ba5782f30231")
 		(property "Reference" "U11"
-			(at 210.82 141.605 0)
+			(at 210.82 140.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "NCP508SQ33T1G"
-			(at 210.82 144.145 0)
+		(property "Value" "NCP114ASN330T1G"
+			(at 210.82 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11213,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP115ASN330T2G"
+		(property "Value" "NCV8114ASN165T1G"
 			(at 149.86 170.815 0)
 			(effects
 				(font
