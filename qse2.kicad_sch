@@ -7674,6 +7674,18 @@
 		)
 		(uuid "5b7d6ac0-6427-437c-82f0-5f395ec9acea")
 	)
+	(text "SWITCH SDA AND SCL"
+		(exclude_from_sim no)
+		(at 34.29 143.51 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "6030e7f2-dc2c-4a7f-b58d-f76ad39629e3")
+	)
 	(text "IN PHASE"
 		(exclude_from_sim no)
 		(at 28.575 123.825 0)
