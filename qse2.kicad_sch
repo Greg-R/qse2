@@ -4845,7 +4845,7 @@
 		)
 		(uuid "e55f997b-d026-4a8d-8f16-7d2b311d7b86")
 	)
-	(text "2.5 VOLTAGE REF"
+	(text "2.5 VOLTAGE REGULATOR"
 		(exclude_from_sim no)
 		(at 138.43 137.795 0)
 		(effects
