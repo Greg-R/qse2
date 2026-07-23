@@ -4880,6 +4880,18 @@
 		)
 		(uuid "8cf89e2a-49df-4b02-8796-1c2371a3cf1c")
 	)
+	(text "PLEASE NOTE: THIS IS THE LVC (3.3V) PART!"
+		(exclude_from_sim no)
+		(at 157.48 67.945 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+		(uuid "94c679c3-6a7d-49eb-8fe6-c05897b545d5")
+	)
 	(text "INPUT FROM\nMAIN BOARD"
 		(exclude_from_sim no)
 		(at 16.51 99.06 0)
@@ -10248,7 +10260,7 @@
 		(fields_autoplaced yes)
 		(uuid "21755505-9441-42c9-93ab-a521f2fab564")
 		(property "Reference" "U4"
-			(at 168.91 24.765 0)
+			(at 168.91 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10257,8 +10269,8 @@
 				)
 			)
 		)
-		(property "Value" "SN74AC74PW"
-			(at 168.91 27.305 0)
+		(property "Value" "SN74LVC74ADR"
+			(at 168.91 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
