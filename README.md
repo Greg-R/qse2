@@ -21,7 +21,7 @@ own a laboratory full of expensive test equipment.  There are no guarantees or o
 performance of this transmitter module.  What you see is what you get!
 
 Gerber files for PCB fabrication are included in the gerbers folder.
-A PDF of the schematic (qse2dcez.pdf) is included for quick viewing of the circuit design in the doc
+A PDF of the schematic (qse2.pdf) is included for quick viewing of the circuit design in the doc
 folder.
 
 QSE2DCEZ requires a simple modification to the Audio Adapter board.  The modification is
