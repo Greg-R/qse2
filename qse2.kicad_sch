@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "QSE2DCEZ with Divide-by-Two Quadrature")
-		(date "2026-04-28")
+		(date "2026-07-21")
 		(rev "1.2")
 	)
 	(lib_symbols

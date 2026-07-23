@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "QSE2DCEZ Divide by Two")
-		(date "2026-04-28")
+		(date "2026-07-21")
 		(rev "V1.2")
 	)
 	(layers
